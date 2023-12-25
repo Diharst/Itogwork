@@ -37,7 +37,7 @@ string[] Find(string[] matrix)
 }
 
 
-int size = ReadInt("Введите размер массива");
+int size = ReadInt("Введите размер массива: ");
 string[] massiv = Generate(size);
 Print(massiv);
 string[] massiv1 = Find(massiv);
